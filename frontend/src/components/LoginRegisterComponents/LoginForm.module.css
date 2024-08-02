@@ -1,0 +1,76 @@
+/* Styling for login */
+.formContainer {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.button {
+    background-color: #0579f5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.notification {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.errorNotification {
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.link a:hover {
+    color: #0056b3;
+}

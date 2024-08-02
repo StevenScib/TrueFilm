@@ -1,0 +1,36 @@
+/*Styling For filmcntrols*/
+.cardControls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 214, 214, 0.5);
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.cardControls:hover {
+    opacity: 1;
+}
+
+.iconBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+    color: black;
+    margin: 10px;
+    transition: color 0.4s ease;
+}
+
+.iconBtn.add:hover {
+    color: green;
+}
+
+.iconBtn.remove:hover {
+    color: red;
+}

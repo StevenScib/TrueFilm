@@ -1,0 +1,103 @@
+/* Styling for Addreview page */
+.formContainer {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.clearButton {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clearButton:hover {
+    background: #cc0000;
+}
+
+.suggestions {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 300px;
+    overflow-y: auto;
+    border-radius: 4px;
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background: #f0f0f0;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.wordCount {
+    text-align: right;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.textarea {
+    height: 100px;
+    resize: none;
+}

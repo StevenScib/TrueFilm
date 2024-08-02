@@ -1,0 +1,19 @@
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.movieItem {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.movieItem:hover {
+    transform: translateY(-10px);
+}

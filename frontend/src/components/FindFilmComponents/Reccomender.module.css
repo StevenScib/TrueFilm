@@ -1,0 +1,11 @@
+/*Styling For recommender*/
+.recommender {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.Movie {
+    color: #AABBC1;
+    text-align: center;
+}
