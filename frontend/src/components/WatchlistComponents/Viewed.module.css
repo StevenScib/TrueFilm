@@ -1,0 +1,50 @@
+/* CSS for Watchlist and watched page */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .count {
+        margin-top: 10px;
+    }
+
+    .filmGrid {
+        width: 100%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+
+.filmGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.noFilms {
+    color: #AABBC1;
+}
+
+.watched {
+    color: #AABBC1;
+}
+
+.count {
+    color: #AABBC1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

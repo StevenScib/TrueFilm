@@ -1,0 +1,42 @@
+/* Styling for Resultcard page */
+.resultCard {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.posterWrapper {
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.posterWrapper img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fillerPoster {
+    height: 150px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.releaseDate {
+    font-size: 0.9em;
+    color: #666;
+}

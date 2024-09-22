@@ -1,0 +1,69 @@
+/* Styles for detail card */
+.movieDetail {
+    background: #b6abab;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.movieDetail img {
+    margin-bottom: 20px;
+}
+
+.movieDetail h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.movieDetail p {
+    line-height: 1.5;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.backButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.4s;
+}
+
+.backButton:hover {
+    background-color: #555;
+}
+
+.btnDisabled {
+    background-color: #555;
+    cursor: default;
+}
+
+.trailer iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 20px;
+}
+
+.messageError {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.messageSuccess {
+    color: green;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.date {
+    font-weight: bold;
+}
