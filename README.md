@@ -39,6 +39,8 @@ git clone https://github.com/StevenScib/TrueFilm.git
 
 Once the connection is set input 
 CREATE DATABASE truefilm_new;
+
+Click the lightning to run command
    <img width="1013" height="103" alt="Create database" src="https://github.com/user-attachments/assets/3ba0f70e-dcfc-472f-89d7-bd058fb4ebf2" />
 
 
