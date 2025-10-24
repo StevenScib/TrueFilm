@@ -42,7 +42,7 @@ const MovieDetail = ({ movie, deselectMovie }) => {
 
     addMovieToWatchlist(movie);
     setMessage('');
-    setSuccessMessage('Movie successfully added to watchlist.');
+    setSuccessMessage('Movie added to watchlist');
   };
 
   return (
@@ -84,3 +84,4 @@ const MovieDetail = ({ movie, deselectMovie }) => {
 };
 
 export default MovieDetail;
+
