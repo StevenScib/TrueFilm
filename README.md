@@ -6,6 +6,8 @@ Mysql for the database
 
 You have to run the Backend Locally to get the security and login and the reviews to display and work as intended since the website is yet to be deployed.
 
+Showcase of the project: https://drive.google.com/file/d/1sdD_iCf9FP9p4WtSLZUJvLtCQ3vOPkJp/view?usp=drive_link
+
 Requirements
 
 
