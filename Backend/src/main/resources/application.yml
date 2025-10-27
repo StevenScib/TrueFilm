@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/review
+    url: jdbc:mysql://localhost:3306/truefilm_new
     username: root
-    password: your_sql_password_here
+    password: oxF;#V9Oj6E4
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
