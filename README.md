@@ -15,7 +15,7 @@ Java 17+
 
 
 Maven
-
+ 
 
 MySQL Server (8.0+)
 
